@@ -749,8 +749,7 @@ function render(){
       }
     }
   }
-
-  // игрок — теперь при движении (включая воздух) показываем анимацию шагов
+ // игрок — теперь при движении (включая воздух) показываем анимацию шагов
   let ptex = textures.player_stand;
   if(player.walking){
     ptex = (player.frame===0? textures.player_right : textures.player_left);
@@ -1082,6 +1081,5 @@ setTimeout(()=>{
   }
 }, 2500);
 </script>
-
 </body>
 </html>
